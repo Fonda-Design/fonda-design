@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'Loura';
     src: url('./fonts/LouraRegular.woff2') format('woff2'),
-        url('./fonts/LouraRegular.woff') format('woff');
+        url('./fonts/LouraRegular.woff') format('woff'),
+        url('./fonts/LouraRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -26,6 +27,15 @@ body {
     height: 100vh;
     margin: 0;
     text-align: center;
+    font-size: 1rem; /* Default font size */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 0.875rem; /* Smaller font size for mobile devices */
+    }
 }
 
 .loura {
