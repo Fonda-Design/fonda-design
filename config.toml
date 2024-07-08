@@ -16,4 +16,6 @@ highlight_code = false
 
 [extra]
 css = ["styles.css"]
+generate_sass = true
+sass_options = ["--style=compressed"]
 # Put all your custom variables here
