@@ -15,4 +15,5 @@ output_dir = "src/public"
 highlight_code = false
 
 [extra]
+css = ["styles.css"]
 # Put all your custom variables here
