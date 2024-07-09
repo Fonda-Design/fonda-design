@@ -5,17 +5,30 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="{{ get_url(path='styles.css') }}">
   <title>Fonda Design</title>
+  <style>
+    .heading-with-icon {
+      display: flex;
+      align-items: center;
+    }
+
+    .heading-with-icon img {
+      margin-right: 10px; /* Adjust the spacing as needed */
+      height: 40px; /* Adjust the height as needed */
+    }
+  </style>
 </head>
 
 <body>
   <section class="section">
     <div class="container">
       {% block content %} 
-      <h1 class="title loura" style="font-size: 5rem;">
+      <h1 class="title loura heading-with-icon" style="font-size: 5rem;">
+        <img src="/images/libeco1.jpg" alt="Icon">
         FONDa
       </h1>
 
-      <p style="font-size: 1.3rem;">
+      <p class="heading-with-icon" style="font-size: 1.3rem;">
+        <img src="/images/libeco1.jpg" alt="Icon">
         VISUAL CURATOR<br />
         ARTIST<br />
         PAINT COLORIST
@@ -31,4 +44,3 @@
 </body>
 
 </html>
-
