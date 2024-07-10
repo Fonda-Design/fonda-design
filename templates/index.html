@@ -18,34 +18,46 @@
             height: 100vh;
             flex-direction: column;
         }
+
         .card-container {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 400px; /* Set a fixed width for consistency */
+            width: 400px;
+            /* Set a fixed width for consistency */
         }
-        .header-image, .business-card {
+
+        .header-image {
             width: 100%;
             height: auto;
+            margin-bottom: 10px; /* Add space between image and card */
+            display: block;
         }
+
         .business-card {
+            width: 100%;
             background-color: #F0EDE4;
             text-align: center;
             padding: 20px;
         }
+
         .business-card h1 {
             font-family: 'Loura', serif;
             font-size: 2.5em;
             margin-bottom: 0.5em;
         }
+
         .business-card p {
+            font-family: 'Avenir', sans-serif;
             font-size: 1em;
             margin: 0.5em 0; /* Add spacing between paragraphs */
         }
+
         .business-card .larger-text {
             font-size: 1.2em; /* Slightly larger font for the first paragraph */
         }
+
         .business-card a {
             color: #173C4E;
             text-decoration: none;
