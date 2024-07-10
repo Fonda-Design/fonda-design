@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{{ get_url(path='styles.css') }}">
+  <title>Fonda Design</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: url('/images/libeco1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      overflow: hidden;
+    }
+
+    .full-page-link {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      text-decoration: none;
+    }
+
+    .content-container {
+      z-index: 2;
+      position: relative;
+      width: 600px;
+      padding: 20px;
+      background-color: #F0EDE4;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+      .content-container {
+        width: 90%;
+      }
+
+      .title {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (min-width: 769px) {
+      .title {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a href="/home" class="full-page-link"></a>
+  <div class="content-container">
+    {% block content %}
+    <div>
+      <h1 class="title loura">
+        FONDa
+      </h1>
+
+      <p>
+        VISUAL CURATOR<br />
+        ARTIST<br />
+        PAINT COLORIST
+      </p>
+
+      <p>
+        CATHY SWETT<br />
+        FONDADESIGN.COM@GMAIL.COM
+      </p>
+    </div>
+    {% endblock %}
+  </div>
+</body>
+
+</html>
