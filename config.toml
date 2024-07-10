@@ -20,4 +20,8 @@ highlight_code = false
 css = ["styles.css"]
 generate_sass = true
 sass_options = ["--style=compressed"]
+show_word_count = false
+show_reading_time = false
+
+
 # Put all your custom variables here
