@@ -31,25 +31,34 @@
     .content-container {
       z-index: 2;
       position: relative;
-      width: 66vw; /* This will give an aspect ratio of 3.32 */
-      height: auto;
+      width: 600px;
       padding: 20px;
       background-color: #F0EDE4;
-      border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    .content-container:before {
-      content: "";
-      display: block;
-      padding-top: calc((2.16 / 3.32) * 100%); /* This ensures the aspect ratio of 3.32:2.16 */
+    @media (max-width: 768px) {
+      .content-container {
+        width: 90%;
+      }
+
+      .title {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+      }
     }
 
-    .content-container > * {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    @media (min-width: 769px) {
+      .title {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+      }
     }
   </style>
 </head>
@@ -59,11 +68,11 @@
   <div class="content-container">
     {% block content %}
     <div>
-      <h1 class="title loura" style="font-size: 4rem;">
+      <h1 class="title loura">
         FONDa
       </h1>
 
-      <p style="font-size: 1.3rem;">
+      <p>
         VISUAL CURATOR<br />
         ARTIST<br />
         PAINT COLORIST
