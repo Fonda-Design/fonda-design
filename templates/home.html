@@ -2,19 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer">
-
-    <link rel="stylesheet" href="https://fonda-design.com/fonts.css">
-    <link rel="stylesheet" href="https://fonda-design.com/style.css">
-
-    <title>
-    Home
-</title>
-    
+    <title>Fonda Design</title>
+    <link rel="stylesheet" href="{{ get_url(path='styles.css') }}">
     <script>
         document.addEventListener('click', function() {
             window.location.href = '/home'; // Change 'nextpage.html' to the URL you want to redirect to
@@ -54,8 +44,7 @@
             height: 100%;
             object-fit: cover; /* Ensure the image covers the card area */
             object-position: center; /* Center the image */
-            border-left: 30px solid #F0EDE4; /* Add a border to the image */
-            border-right: 30px solid #F0EDE4; /* Add a border to the image */
+            border: 30px solid #F0EDE4; /* Add a border to the image */
         }
         .business-card {
             width: 400px; /* Set a fixed width for consistency */
@@ -72,7 +61,6 @@
             font-family: 'Loura', serif;
             font-size: 2.5em;
             margin-bottom: 0.5em;
-            margin-top: 0.75em;
         }
         .business-card p {
             font-family: 'Avenir', sans-serif;
@@ -107,25 +95,10 @@
                 PAINT COLORIST
             </p>
             <div class="contact-info">
-                <p>
-                    CATHY SWETT<br />
-                <a href="mailto:FONDADESIGN.COM@GMAIL.COM">FONDADESIGN.COM@GMAIL.COM</a>
-            </p>
+                <p>CATHY SWETT</p>
+                <p><a href="mailto:FONDADESIGN.COM@GMAIL.COM">FONDADESIGN.COM@GMAIL.COM</a></p>
             </div>
         </div>
-        <br />
-        
-    
-        
-        
-        
-        
-        
-        <hr/>
-    
-    <h1 id="art-focused-since-the-seventies">Art focused since the seventies!</h1>
-
-
     </div>
 </body>
 </html>

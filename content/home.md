@@ -2,6 +2,6 @@
 title = "Home"
 +++
 
-# Welcome to Fonda Design
+# Art focused since the seventies!
 
-This is the main content of the site. You can add more sections here as needed.
+

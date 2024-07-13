@@ -1,21 +1,3 @@
-@font-face {
-    font-family: 'Loura';
-    src: url('./fonts/LouraRegular.woff2') format('woff2'),
-        url('./fonts/LouraRegular.woff') format('woff'),
-        url('./fonts/LouraRegular.eot') format('eot');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir';
-    src: url('./fonts/Avenir-Book.woff2') format('woff2'),
-        url('./fonts/Avenir-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 body {
     background-color: #F0EDE4;
