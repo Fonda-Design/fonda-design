@@ -1,100 +1,6 @@
-{% import "macros.html" as macros %}
+{% extends "base.html" %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer">
-
-    <link rel="stylesheet" href="{{ get_url(path='fonts.css') }}">
-    <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
-
-    <title>{% block htmltitle %}{{ config.title }}{% endblock htmltitle %}</title>
-    
-<!--     <script>
-        document.addEventListener('click', function() {
-            window.location.href = '/home'; // Change 'nextpage.html' to the URL you want to redirect to
-        });
-    </script>
- -->    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start; /* Align children at the top */
-            height: 100vh; /* Ensure it takes up the full viewport height */
-            background-color: #F0EDE4;
-            color: #173C4E;
-            font-family: 'Avenir', sans-serif;
-            margin: 0;
-            padding: 20px; /* Add some padding to the body */
-        }
-        .card-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            margin-top: 0; /* Ensure the container starts at the top */
-        }
-        .card {
-            width: 400px; /* Set a fixed width for consistency */
-            height: 250px; /* Set a fixed height for consistency */
-            margin-top: 20px; 
-            margin-bottom: 30px; /* Increased space between cards */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #F0EDE4; /* Match the background color */
-        }
-        .header-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Ensure the image covers the card area */
-            object-position: center; /* Center the image */
-            border-left: 30px solid #F0EDE4; /* Add a border to the image */
-            border-right: 30px solid #F0EDE4; /* Add a border to the image */
-        }
-        .business-card {
-            width: 400px; /* Set a fixed width for consistency */
-            height: 250px; /* Set a fixed height for consistency */
-            text-align: center;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start; /* Align content at the top */
-            align-items: center;
-            background-color: #F0EDE4; /* Match the background color */
-        }
-        .business-card h1 {
-            font-family: 'Loura', serif;
-            font-size: 2.5em;
-            margin-bottom: 0.5em;
-            margin-top: 0.75em;
-        }
-        .business-card p {
-            font-family: 'Avenir', sans-serif;
-            font-size: 1em;
-            margin: 0.5em 0; /* Add spacing between paragraphs */
-        }
-        .business-card .larger-text {
-            font-size: 1.2em; /* Slightly larger font for the first paragraph */
-        }
-        .business-card .contact-info {
-            margin-top: 15px;
-        }
-        .business-card .contact-info p {
-            margin: 0;
-        }
-        .business-card .contact-info a {
-            color: #173C4E;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
+{% block content %}
     <div class="card-container">
         <div class="card">
             <img src="/images/libeco1.jpg" alt="Fabric Image" class="header-image">
@@ -114,9 +20,10 @@
             </div>
         </div>
         <br />
-        {% block content %}
-        {{ section.content | safe }}
-        {% endblock content %}
     </div>
-</body>
-</html>
+    <script>
+        document.addEventListener('click', function() {
+            window.location.href = '/work'; // Change 'nextpage.html' to the URL you want to redirect to
+        });
+    </script>
+{% endblock content %}
