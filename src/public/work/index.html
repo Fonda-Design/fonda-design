@@ -11,21 +11,82 @@
     <link rel="stylesheet" href="https://fonda-design.com/fonts.css">
     <link rel="stylesheet" href="https://fonda-design.com/style.css">
 
-    <title>Fonda Design</title>
+    <title>
+    Fonda Design  - Works
+</title>
 </head>
 <body>
-    <section class="section">
-      <div class="container">
         
+<header>
+  <a href="/">
+    <h1>FONDa</h1>
+  </a>
+</header>
+<main>
+  
+  <!-- <h2><a href="https:&#x2F;&#x2F;fonda-design.com&#x2F;work&#x2F;walls&#x2F;">WALLS</a></h2> -->
+  <section id="walls">
+    <h2>WALLS</h2>
+    <p><img src="https://fonda-design.com/work/walls/frenchcolors.jpg" alt="frenchcolors" /> <img src="https://fonda-design.com/work/walls/gallerywall.jpg" alt="gallerywall" />
+<img src="https://fonda-design.com/work/walls/gallerymirror.jpg" alt="gallerymirror" />
+<img src="https://fonda-design.com/work/walls/theloo.jpg" alt="theloo" />
+<img src="https://fonda-design.com/work/walls/geese.jpg" alt="geese" /></p>
 
-  <h1><a href="https:&#x2F;&#x2F;fonda-design.com&#x2F;work&#x2F;walls&#x2F;">Walls</a></h1>
+  </section>
+  
+  <!-- <h2><a href="https:&#x2F;&#x2F;fonda-design.com&#x2F;work&#x2F;illustrations&#x2F;">ILLUSTRATIONS</a></h2> -->
+  <section id="illustrations">
+    <h2>ILLUSTRATIONS</h2>
+    <p><img src="https://fonda-design.com/work/illustrations/ciscostation.jpg" alt="ciscostation" />
+<img src="https://fonda-design.com/work/illustrations/itssoyou.jpg" alt="itssoyou" />
+<img src="https://fonda-design.com/work/illustrations/margosoyster.jpg" alt="margosoyster" />
+<img src="https://fonda-design.com/work/illustrations/kitchentable.jpg" alt="kitchentable" /></p>
 
-  <h1><a href="https:&#x2F;&#x2F;fonda-design.com&#x2F;work&#x2F;illustrations&#x2F;">Illustrations</a></h1>
+  </section>
+  
+  <!-- <h2><a href="https:&#x2F;&#x2F;fonda-design.com&#x2F;work&#x2F;childrensart&#x2F;">CHILDREN&#x27;S ART</a></h2> -->
+  <section id="childrensart">
+    <h2>CHILDREN&#x27;S ART</h2>
+    <p><img src="https://fonda-design.com/work/childrensart/children.jpg" alt="children" />
+<img src="https://fonda-design.com/work/childrensart/mask.jpg" alt="mask" />
+<img src="https://fonda-design.com/work/childrensart/monalisa.jpg" alt="monalisa" />
+<img src="https://fonda-design.com/work/childrensart/monalisa2.jpg" alt="monalisa2" />
+<img src="https://fonda-design.com/work/childrensart/monalisa3.jpg" alt="monalisa3" />
+<img src="https://fonda-design.com/work/childrensart/moonphases.jpg" alt="moonphases" />
+<img src="https://fonda-design.com/work/childrensart/millvalley.jpg" alt="millvalley" />
+<img src="https://fonda-design.com/work/childrensart/nutflower1.jpg" alt="nutflower1" />
+<img src="https://fonda-design.com/work/childrensart/nutflower2.jpg" alt="nutflower2" />
+<img src="https://fonda-design.com/work/childrensart/nutflower3.jpg" alt="nutflower3" />
+<img src="https://fonda-design.com/work/childrensart/vangogh.jpg" alt="vangogh" />
+<img src="https://fonda-design.com/work/childrensart/crozier.jpg" alt="crozier" /></p>
 
-  <h1><a href="https:&#x2F;&#x2F;fonda-design.com&#x2F;work&#x2F;childrensart&#x2F;">Children&#x27;s Art</a></h1>
+  </section>
+  
+</main>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("nav a");
 
+    window.addEventListener("scroll", function() {
+        let current = "";
 
-      </div>
-    </section>
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            if (scrollY >= sectionTop - 100) { // Adjust offset as needed
+                current = section.getAttribute("id");
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove("active");
+            if (link.classList.contains(current)) {
+                link.classList.add("active");
+            }
+        });
+    });
+  });
+</script>
+
   </body>
 </html>
