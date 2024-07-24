@@ -12,7 +12,7 @@ collections:
   - name: "walls"
     label: "Walls"
     folder: "content/work/walls"
-    media_folder: "content/work/walls"
+    media_folder: "."
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -23,7 +23,7 @@ collections:
   - name: "illustrations"
     label: "Illustrations"
     folder: "content/work/illustrations"
-    media_folder: "content/work/illustrations"
+    media_folder: "."
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -34,7 +34,7 @@ collections:
   - name: "childrensart"
     label: "Children's Art"
     folder: "content/work/childrensart"
-    media_folder: "content/work/childrensart"
+    media_folder: "."
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
