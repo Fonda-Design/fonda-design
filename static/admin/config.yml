@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: Fonda-Design/fonda-design
   branch: main
   app_id: Ov23liIwDxyXJ5evY2OG
