@@ -23,6 +23,8 @@ generate_sass = true
 sass_options = ["--style=compressed"]
 show_word_count = false
 show_reading_time = false
+include = ["static/admin"]
+build_search_index = true
 
 [extra.sam_footer]
 text = "© 2024  Fonda Design"
