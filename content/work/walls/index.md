@@ -3,7 +3,7 @@ title: WALLS
 weight: 0
 date: 2024-07-24T17:55:14.249Z
 ---
-![](frenchcolors.jpg)
+![dots](frenchcolors.jpg "dotgs")
 
 ![frenchcolors](frenchcolors.jpg) 
 ![gallerywall](gallerywall.jpg)
