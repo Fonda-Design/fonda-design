@@ -1,9 +1,11 @@
 +++
 title = "ILLUSTRATIONS"
-weight = 1
+weight = 3
 +++
 
+![ellamoss](ellamoss.jpg)
 ![itssoyou](itssoyou.jpg)
 ![margosoyster](margosoyster.jpg)
-![ciscostation](ciscostation.jpg)
+![borderondots](borderondots.jpg)
+![3bordersonwood](3bordersonwood.jpg)
 ![kitchentable](kitchentable.jpg)

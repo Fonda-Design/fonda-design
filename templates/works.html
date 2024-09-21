@@ -14,8 +14,10 @@
   {% for work in section.pages %}
   <!-- <h2><a href="{{ work.permalink }}">{{ work.title }}</a></h2> -->
   <section id="{{ work.slug }}">
-    <h2>{{ work.title }}</h2>
-    {{ work.content | safe }}
+    {% if work.title is defined and work.title %}
+    <h2>{{ work.title | safe }}</h2>
+    {% endif %}
+        {{ work.content | safe }}
   </section>
   {% endfor %}
 </main>

@@ -1,12 +1,11 @@
 ---
-title: WALLS
-weight: 0
+title: "GALLERY WALLS / PAINT CONSULTATION"
+weight: 1
 date: 2024-07-24T17:55:14.249Z
 ---
-![dots](frenchcolors.jpg "dotgs")
-
-![frenchcolors](frenchcolors.jpg) 
 ![gallerywall](gallerywall.jpg)
 ![gallerymirror](gallerymirror.jpg)
-![theloo](theloo.jpg)
+![albumwall](albumwall.jpg)
 ![geese](geese.jpg)
+![theloo](theloo.jpg)
+![saltydog](saltydog.jpg)
