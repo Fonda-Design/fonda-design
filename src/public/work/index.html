@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+
+    <link rel="stylesheet" href="https://fonda-design.com/fonts.css">
+    <link rel="stylesheet" href="https://fonda-design.com/style.css">
+
+    <title>
+    Fonda Design  - Works
+</title>
+</head>
+<body>
+        
+<header>
+  <a href="/">
+    <h1>FONDa</h1>
+  </a>
+</header>
+<main>
+  
+  <!-- <h2><a href="https:&#x2F;&#x2F;fonda-design.com&#x2F;work&#x2F;top&#x2F;"></a></h2> -->
+  <section id="top">
+    
+        <img src="/images/color1ball.png" alt="colorball" class="small-image" />
+
+  </section>
+  
+  <!-- <h2><a href="https:&#x2F;&#x2F;fonda-design.com&#x2F;work&#x2F;walls&#x2F;">GALLERY WALLS &#x2F; PAINT CONSULTATION</a></h2> -->
+  <section id="walls">
+    
+    <h2>GALLERY WALLS / PAINT CONSULTATION</h2>
+    
+        <p><img src="https://fonda-design.com/work/walls/gallerywall.jpg" alt="gallerywall" />
+<img src="https://fonda-design.com/work/walls/gallerymirror.jpg" alt="gallerymirror" />
+<img src="https://fonda-design.com/work/walls/albumwall.jpg" alt="albumwall" />
+<img src="https://fonda-design.com/work/walls/geese.jpg" alt="geese" />
+<img src="https://fonda-design.com/work/walls/theloo.jpg" alt="theloo" />
+<img src="https://fonda-design.com/work/walls/saltydog.jpg" alt="saltydog" /></p>
+
+  </section>
+  
+  <!-- <h2><a href="https:&#x2F;&#x2F;fonda-design.com&#x2F;work&#x2F;findings&#x2F;">FINDINGS</a></h2> -->
+  <section id="findings">
+    
+    <h2>FINDINGS</h2>
+    
+        <p><img src="https://fonda-design.com/work/findings/clouds.jpg" alt="clouds" />
+<img src="https://fonda-design.com/work/findings/goldenpillow.jpg" alt="goldenpillow" />
+<img src="https://fonda-design.com/work/findings/flowers.jpg" alt="flowers" />
+<img src="https://fonda-design.com/work/findings/ninecowboyhats.jpg" alt="ninecowboyhats" /></p>
+
+  </section>
+  
+  <!-- <h2><a href="https:&#x2F;&#x2F;fonda-design.com&#x2F;work&#x2F;illustrations&#x2F;">CUSTOM CARDS AND ILLUSTRATIONS</a></h2> -->
+  <section id="illustrations">
+    
+    <h2>CUSTOM CARDS AND ILLUSTRATIONS</h2>
+    
+        <p><img src="https://fonda-design.com/work/illustrations/ellamoss.jpg" alt="ellamoss" />
+<img src="https://fonda-design.com/work/illustrations/itssoyou.jpg" alt="itssoyou" />
+<img src="https://fonda-design.com/work/illustrations/margosoyster.jpg" alt="margosoyster" />
+<img src="https://fonda-design.com/work/illustrations/borderondots.jpg" alt="borderondots" />
+<img src="https://fonda-design.com/work/illustrations/3bordersonwood.jpg" alt="3bordersonwood" />
+<img src="https://fonda-design.com/work/illustrations/kitchentable.jpg" alt="kitchentable" /></p>
+
+  </section>
+  
+</main>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("nav a");
+
+    window.addEventListener("scroll", function() {
+        let current = "";
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            if (scrollY >= sectionTop - 100) { // Adjust offset as needed
+                current = section.getAttribute("id");
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove("active");
+            if (link.classList.contains(current)) {
+                link.classList.add("active");
+            }
+        });
+    });
+  });
+</script>
+
+  </body>
+</html>

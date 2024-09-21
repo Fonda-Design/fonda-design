@@ -1,5 +1,5 @@
 +++
-title = "ILLUSTRATIONS"
+title = "CUSTOM CARDS AND ILLUSTRATIONS"
 weight = 3
 +++
 
