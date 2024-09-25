@@ -8,4 +8,6 @@ weight = 3
 ![margosoyster](margosoyster.jpg)
 ![borderondots](borderondots.jpg)
 ![3bordersonwood](3bordersonwood.jpg)
+![hohohobmw](hohohobmw.jpg)
+![halloweenparade](halloweenparade.jpg)
 ![kitchentable](kitchentable.jpg)
