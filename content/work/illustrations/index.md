@@ -9,5 +9,4 @@ weight = 3
 ![borderondots](borderondots.jpg)
 ![3bordersonwood](3bordersonwood.jpg)
 ![hohohobmw](hohohobmw.jpg)
-![halloweenparade](halloweenparade.jpg)
 ![kitchentable](kitchentable.jpg)
