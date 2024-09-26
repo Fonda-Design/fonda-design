@@ -6,5 +6,5 @@ weight = 2
 ![clouds](clouds.jpg)
 ![goldenpillow](goldenpillow.jpg)
 ![timetraveller](timetraveller.jpg)
-![ninecowboyhats](ninecowboyhats.jpg)
+![cowboyhats](cowboyhats.jpg)
 ![butterflybag](butterflybag.jpg)
