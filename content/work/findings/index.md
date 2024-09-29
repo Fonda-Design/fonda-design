@@ -4,7 +4,7 @@ weight = 2
 +++
 
 ![clouds](clouds.jpg)
-{{ img(src="/images/rug.jpg", alt="rug", class="smaller-image") }}
+![rug](rug.jpg)
 ![goldenpillow](goldenpillow.jpg)
 ![timetraveller](timetraveller.jpg)
 ![cowboyhats](cowboyhats.jpg)
