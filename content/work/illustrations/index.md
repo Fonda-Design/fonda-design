@@ -6,6 +6,7 @@ weight = 3
 ![ellamoss](ellamoss.jpg)
 ![itssoyou](itssoyou.jpg)
 ![margosoyster](margosoyster.jpg)
+![halloweenparade](halloweenparade.jpg)
 ![borderondots](borderondots.jpg)
 ![3bordersonwood](3bordersonwood.jpg)
 ![hohohobmw](hohohobmw.jpg)
