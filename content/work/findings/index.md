@@ -1,6 +1,6 @@
 +++
-title = "FINDINGS"
-weight = 2
+title = "ART | TEXTILE RESOURCING"
+weight = 3
 +++
 
 ![clouds](clouds.jpg)
