@@ -1,5 +1,5 @@
 +++
-title = "ART | TEXTILE RESOURCING"
+title = "ARTWORK | TEXTILE<br />RESOURCING"
 weight = 3
 +++
 

@@ -12,4 +12,3 @@ date: 2024-07-24T17:55:14.249Z
 <br>
 
 ![theloo](theloo.jpg)
-![saltydog](saltydog.jpg)
