@@ -1,6 +1,5 @@
 ---
-title: "GALLERY WALLS"
-subtitle: "CURATION | INSTALLATION"
+title: "GALLERY WALLS<br />CURATION | INSTALLATION"
 weight: 1
 date: 2024-07-24T17:55:14.249Z
 ---
