@@ -7,7 +7,44 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-
+    <style>
+      @font-face {
+          font-family: 'Loura';
+          src: url('./fonts/LouraRegular.woff2') format('woff2'),
+               url('./fonts/LouraRegular.woff') format('woff'),
+               url('./fonts/LouraRegular.eot') format('eot');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+      }
+  
+      @font-face {
+          font-family: 'Avenir';
+          src: url('./fonts/Avenir-Book.woff2') format('woff2'),
+               url('./fonts/Avenir-Book.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+      }
+    </style>
+    <style>
+      /* Reset and layout essentials */
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { background-color: #f0ede4; font-family: "Avenir", sans-serif; font-size: 16px; color: #173c4e; }
+  
+      /* Layout essentials for main content */
+      body { display: flex; flex-direction: column; align-items: center; }
+      h1, h2, h3 { margin-bottom: 0.5em; text-align: center; font-family: "Avenir", sans-serif; }
+  
+      /* Basic anchor styling for links */
+      a { color: #000; text-decoration: none; transition: 0.5s ease; }
+      a:hover { color: #173c4e; }
+  
+      /* Essential button styling */
+      button { padding: 20px; border: none; border-radius: 5px; background: #173c4e; color: #f0ede4; }
+      button:hover { box-shadow: 5px 5px #f0ede4; }
+    </style>
+  
     <link rel="preload" href="https://fonda-design.com/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonda-design.com/fonts.css"></noscript>
     
