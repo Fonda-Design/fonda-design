@@ -76,20 +76,29 @@ a
   color: #173C4E
   text-decoration: none
 
-  @media (min-width: 768px)
+  @media (hover: hover) and (pointer: fine) // Non-mobile devices
     &:hover
       text-decoration: underline
+
+/* Remove underline during interaction on mobile devices */
+@media (hover: none) and (pointer: coarse) // Mobile devices
+  a:focus, a:active
+    text-decoration: none
 
 /* Specific styles for <a> containing <h1> */
 a h1
   color: #173C4E
-  text-decoration: none // Remove underline from h1 by default
+  text-decoration: none // Remove default underline for h1
 
-  @media (min-width: 768px)
+  @media (hover: hover) and (pointer: fine) // Non-mobile devices
     &:hover
       text-decoration: underline
       text-decoration-thickness: 2px // Thicker underline for h1
-      text-underline-offset: 6px    // Adjust spacing for h1 underline
+      text-underline-offset: 5px    // Adjust spacing for h1 underline
+
+  @media (hover: none) and (pointer: coarse) // Mobile devices
+    &:focus, &:active
+      text-decoration: none
 
 /* Disable underline for <a> containing <h1> */
 a:hover
