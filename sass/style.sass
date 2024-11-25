@@ -90,6 +90,11 @@ a.uline
       text-decoration-thickness: 2px // Thicker underline for special links
       text-underline-offset: 5px    // Larger spacing for special links
 
+/* iOS-specific fix to prevent underlines on tap */
+@media (hover: none) and (pointer: coarse)
+  a:focus, a:active
+    text-decoration: none !important
+    
 header
     padding: 1rem 0 0 0
     text-align: center
